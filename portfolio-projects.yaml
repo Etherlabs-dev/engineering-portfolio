@@ -1,0 +1,23 @@
+program: Etherlabs Engineering Portfolio
+github_owner: Etherlabs-dev
+local_root: /Users/ugochukwuchukwu/Projects/Etherlabs-Portfolio
+hosting_policy: personal_or_etherlabs_only
+projects:
+  - order: 1
+    name: Query Chat / Account Intelligence GraphRAG
+    repo: Etherlabs-dev/query-chat
+    phase: case_study
+    demo: https://query-chat-gamma.vercel.app
+    ci: passing
+    remaining: [railway_api, supabase, hosted_ai, contra, upwork, portfolio_website, linkedin, resume]
+  - { order: 2, name: Aja Intelligence Engine, repo: Etherlabs-dev/aja-intelligence-engine, phase: planned }
+  - { order: 3, name: Helios Strategy and Copy System, repo: Etherlabs-dev/helios-strategy-copy, phase: planned }
+  - { order: 4, name: Static Ad Generation and Ad Workspace, repo: Etherlabs-dev/static-ad-workspace, phase: planned }
+  - { order: 5, name: Cassius Multimodal Video Pipeline, repo: Etherlabs-dev/cassius-video-pipeline, phase: planned }
+  - { order: 6, name: Creative Intelligence, repo: Etherlabs-dev/creative-intelligence, phase: planned }
+  - { order: 7, name: Account Truth / Meta Synchronization, repo: Etherlabs-dev/account-truth-sync, phase: planned }
+  - { order: 8, name: Portfolio Rollup and Strategy Coverage, repo: Etherlabs-dev/portfolio-rollup, phase: planned }
+  - { order: 9, name: Agent Brain and Closed-Loop Learning, repo: Etherlabs-dev/agent-brain, phase: planned }
+  - { order: 10, name: Media Buying Brain and Decision Chains, repo: Etherlabs-dev/media-buying-brain, phase: planned }
+  - { order: 11, name: Context Engine and Client Onboarding, repo: Etherlabs-dev/context-engine, phase: planned }
+  - { order: 12, name: Tenant-Safe Data Hub, repo: Etherlabs-dev/tenant-safe-data-hub, phase: planned }
