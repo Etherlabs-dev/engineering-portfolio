@@ -1,23 +1,25 @@
 # Portfolio program tracker
 
-Status vocabulary: `Planned → Discovery → Design → Build → Verification → Deploy → Case study → Profile-ready`.
+Status vocabulary: `Planned → Discovery → Design → Build → Verification → Publish → Case study → Profile-ready`. `Deploy` is an optional hosted-flagship milestone, not a universal requirement.
+
+Delivery tiers: `Runnable repository` is the default; `Hosted flagship` is used only after explicit approval when live infrastructure materially proves the project.
 
 ## Repository and deliverable inventory
 
 | # | Project | Planned repository | Current phase | Product scope | Case-study outputs |
 |---:|---|---|---|---|---|
 | 1 | Query Chat / Account Intelligence GraphRAG | `Etherlabs-dev/query-chat` | Case study | Evidence-grounded account intelligence, exact analytics, hybrid retrieval, graph traversal, role boundaries, safe actions | GitHub README, long-form case study and screenshots complete; Contra, Upwork, website, LinkedIn and résumé adaptations pending |
-| 2 | Aja Intelligence Engine | `Etherlabs-dev/aja-intelligence-engine` | Planned | Research orchestration, market and customer intelligence, evidence synthesis | Full case study plus profile adaptations |
-| 3 | Helios Strategy and Copy System | `Etherlabs-dev/helios-strategy-copy` | Planned | Winning-ad analysis, strategy planning, hooks, copy and scripts | Full case study plus profile adaptations |
-| 4 | Static Ad Generation and Ad Workspace | `Etherlabs-dev/static-ad-workspace` | Planned | Image generation, compositing, iteration, review, approval and experiment workflow | Full case study plus visual gallery and profile adaptations |
-| 5 | Cassius Multimodal Video Pipeline | `Etherlabs-dev/cassius-video-pipeline` | Planned | Scene planning, multimodal asset preparation, generation, stitching, retry and delivery | Full case study plus video examples and profile adaptations |
-| 6 | Creative Intelligence | `Etherlabs-dev/creative-intelligence` | Planned | Creative classification, strategy interpretation, fatigue, gaps, provenance and evaluation | Full case study plus evaluation evidence and profile adaptations |
-| 7 | Account Truth / Meta Synchronization | `Etherlabs-dev/account-truth-sync` | Planned | Tenant-safe ad-account synchronization, truth modeling, provenance, health and recovery | Full case study plus operational evidence and profile adaptations |
-| 8 | Portfolio Rollup and Strategy Coverage | `Etherlabs-dev/portfolio-rollup` | Planned | Cross-account rollups, strategy coverage, opportunity and portfolio decision support | Full case study plus dashboard screenshots and profile adaptations |
-| 9 | Agent Brain and Closed-Loop Learning | `Etherlabs-dev/agent-brain` | Planned | Durable memory, feedback, governed learning, checkpoints and bounded repairs | Full case study plus evaluation evidence and profile adaptations |
-| 10 | Media Buying Brain and Decision Chains | `Etherlabs-dev/media-buying-brain` | Planned | Evidence-grounded media decisions, constraints, reviewable recommendations and decision lineage | Full case study plus decision-chain examples and profile adaptations |
-| 11 | Context Engine and Client Onboarding | `Etherlabs-dev/context-engine` | Planned | Structured intake, resumable onboarding, context normalization and activation | Full case study plus journey screenshots and profile adaptations |
-| 12 | Tenant-Safe Data Hub | `Etherlabs-dev/tenant-safe-data-hub` | Planned | OAuth-owned sources, sync jobs, provenance, RLS, disconnect and purge boundaries | Full case study plus security evidence and profile adaptations |
+| 2 | Research Agent | `Etherlabs-dev/research-agent` | Case study | Research orchestration, market and customer intelligence, evidence synthesis | Public runnable repository and screenshots complete; case study and profile adaptations pending |
+| 3 | Strategy and Copy Agent | `Etherlabs-dev/strategy-copy-agent` | Case study | Evidence readiness, synthetic winner analysis, governed strategy portfolios, hooks, copy/scripts, immutable review and safe handoff | Public runnable repository, green CI, screenshots and long-form case study complete; profile copy drafted, external profile publication pending |
+| 4 | Static Creative Studio | `Etherlabs-dev/static-creative-studio` | Planned | Image generation, compositing, iteration, review, approval and experiment workflow | Full case study plus visual gallery and profile adaptations |
+| 5 | Multimodal Video Pipeline | `Etherlabs-dev/multimodal-video-pipeline` | Planned | Scene planning, multimodal asset preparation, generation, stitching, retry and delivery | Full case study plus video examples and profile adaptations |
+| 6 | Creative Analysis Engine | `Etherlabs-dev/creative-analysis-engine` | Planned | Creative classification, strategy interpretation, fatigue, gaps, provenance and evaluation | Full case study plus evaluation evidence and profile adaptations |
+| 7 | Account Data Sync | `Etherlabs-dev/account-data-sync` | Planned | Tenant-safe ad-account synchronization, truth modeling, provenance, health and recovery | Full case study plus operational evidence and profile adaptations |
+| 8 | Portfolio Intelligence | `Etherlabs-dev/portfolio-intelligence` | Planned | Cross-account rollups, strategy coverage, opportunity and portfolio decision support | Full case study plus dashboard screenshots and profile adaptations |
+| 9 | Agent Memory and Learning | `Etherlabs-dev/agent-memory-learning` | Planned | Durable memory, feedback, governed learning, checkpoints and bounded repairs | Full case study plus evaluation evidence and profile adaptations |
+| 10 | Media Decision Engine | `Etherlabs-dev/media-decision-engine` | Planned | Evidence-grounded media decisions, constraints, reviewable recommendations and decision lineage | Full case study plus decision-chain examples and profile adaptations |
+| 11 | Client Context and Onboarding | `Etherlabs-dev/client-context-onboarding` | Planned | Structured intake, resumable onboarding, context normalization and activation | Full case study plus journey screenshots and profile adaptations |
+| 12 | Tenant Data Hub | `Etherlabs-dev/tenant-data-hub` | Planned | OAuth-owned sources, sync jobs, provenance, RLS, disconnect and purge boundaries | Full case study plus security evidence and profile adaptations |
 
 ## Gate checklist for every repository
 
@@ -43,14 +45,14 @@ Status vocabulary: `Planned → Discovery → Design → Build → Verification 
 - [ ] Desktop, mobile, keyboard and degraded-state browser verification passes.
 - [ ] Final screenshots match the accepted design direction.
 
-### Publication and deployment
+### Publication
 
 - [ ] Ownership verification script passes.
 - [ ] Git remote owner is exactly `Etherlabs-dev`.
 - [ ] GitHub CI is green.
-- [ ] Hosting accounts are personal/Etherlabs-owned.
-- [ ] Hosted smoke tests pass.
-- [ ] README links to the live demo, screenshots, case study, Peerless context and ownership notice.
+- [ ] Local demo, synthetic fixtures, screenshots/sample outputs, and setup instructions establish working behavior.
+- [ ] README links to screenshots, case study, Peerless context and ownership notice.
+- [ ] If designated `Hosted flagship`: hosting accounts are personal/Etherlabs-owned and hosted smoke tests pass.
 
 ### Case study and profiles
 
@@ -64,6 +66,42 @@ Status vocabulary: `Planned → Discovery → Design → Build → Verification 
 
 ## Immediate next actions
 
-1. Complete Query Chat's personally owned Railway and Supabase deployment.
+1. Configure Query Chat's personally owned hosted AI path and connect Vercel to the verified Railway API.
 2. Produce Query Chat's Contra, Upwork, website, LinkedIn and résumé adaptations.
-3. Begin discovery and claim-ledger preparation for Aja Intelligence Engine.
+3. Produce Research Agent's long-form case study and profile adaptations. Keep Supabase/Railway deployment optional unless Ugo later promotes it to a hosted flagship.
+4. Apply the prepared Strategy and Copy Agent copy to the portfolio website, Contra, Upwork, LinkedIn, GitHub profile and résumé when those external publication surfaces are in scope.
+
+## Current Strategy and Copy Agent checkpoint — 2026-08-11
+
+- Historical grounding: relevant private routes, services, schemas, migrations, tests, frontend surfaces, runtime callers, and approved-identity history were inspected read-only. The existing dirty private checkout was not changed.
+- Product boundary: a governed strategy-and-copy workspace that converts evidence readiness and synthetic ad observations into distinct strategic bets, hooks, static copy and short-video scripts, immutable revisions, exact-version approval, and a reviewable handoff. Live ad creation, media generation, publishing, and unsupported performance claims are excluded.
+- Evidence boundary: private source behavior and dated authorship history are retained only in `private-evidence/`; all public fixtures and metrics will be deterministic synthetic evidence.
+- Delivery decision: Tier 1 runnable repository. No Supabase, Railway, Vercel, paid provider, or other live resource is required or approved.
+- Discovery artifacts: public product brief, architecture direction, synthetic dataset, evaluation plan, design brief, private source-grounding record, and private claim ledger are complete.
+- Design: the desktop portfolio, Copy Studio and deliberate mobile continuation were approved; implementation screenshots are retained in the public repository.
+- Local implementation: React/Vite/TypeScript review workspace, FastAPI/Pydantic API, signed synthetic sessions, two tenant fixtures, role-separated revision/approval/handoff, optimistic concurrency, durable SQLite snapshots, audit events, idempotent handoff and generated OpenAPI are complete.
+- Local proof: frontend lint, 4 web interaction tests, production build, API Ruff, 8 API/security/durability tests, 8/8 deterministic evaluations, reset/migration path, ownership and secret scans, JavaScript and Python dependency audits with no known vulnerabilities, live API health/OpenAPI smoke tests, and desktop/mobile browser acceptance pass with zero console warnings/errors.
+- Public proof: `main` is published at `https://github.com/Etherlabs-dev/strategy-copy-agent`; final commit `6fb05d4` passed both GitHub Actions jobs in run `31512563798`. The public long-form case study is linked from the README.
+- Profile checkpoint: evidence-bounded website, Contra, Upwork, LinkedIn, GitHub-profile and résumé copy is prepared in `STRATEGY_COPY_AGENT_PROFILE_ASSETS.md`. It has not been applied to external profile surfaces.
+- Open gate: external profile publication. No dedicated hosting is required; the Tier 1 repository is publish-complete without Supabase, Railway, Vercel or a paid provider.
+
+## Current Research Agent checkpoint — 2026-08-11
+
+- Naming and ownership boundary: public identity approved as Research Agent by Etherlabs; isolated repository at `/Users/ugochukwuchukwu/Projects/Etherlabs-Portfolio/research-agent`; public remote verified as `https://github.com/Etherlabs-dev/research-agent.git`.
+- Product/design: product brief, private claim ledger, functional public roadmap, approved 1568 × 1003 desktop concept, extracted design system, and deliberate mobile continuation complete.
+- Local implementation: React/Vite/TypeScript workspace, working safe-review interactions, FastAPI/Pydantic versioned API, signed demo sessions, two synthetic tenants, three roles, deterministic evidence fixtures, reproducible ingestion/deduplication, provider degradation, streamed run provenance, generated OpenAPI, documentation, and CI workflow implemented.
+- Local proof: frontend lint, 3 web interaction tests, production build, API Ruff check, 13 API tests, 40/40 deterministic evaluations, prompt-injection treatment, ownership and credential scans, Python dependency audit with no known findings, JavaScript audit with one low-severity finding, desktop/mobile browser workflow acceptance, and zero browser console warnings/errors pass.
+- Supabase checkpoint: CLI `2.113.0` initialized the local project and created migration `20260811122314_research_agent_initial.sql`; the migration contains pgvector/hybrid retrieval, explicit grants, tenant RLS, indexed membership predicates, and an 8-assertion pgTAP tenant-isolation suite. No live project has been changed.
+- Delivery decision: Tier 1 runnable repository. A dedicated Supabase project, Railway service, Vercel deployment, and live provider are intentionally not required for initial publication.
+- Public proof: `main` is published, ownership verification passes, and GitHub Actions run `31505361906` passed both web and API jobs at commit `64b1f3f`.
+- Open gates: write the long-form case study and profile adaptations. Migration/pgTAP execution remains an optional future hosted-flagship enhancement, not a publication blocker.
+
+## Current Query Chat checkpoint — 2026-08-11
+
+- Personal infrastructure: Supabase project `query-chat` (`ndivrmirqknlvicbqzyh`) is active in Ugo's `ethercess@gmail.com's Org` on the Free plan in `ap-south-1`; the FastAPI service is healthy in Ugo's personal Railway workspace at `https://api-production-d817.up.railway.app`. No Peerless account or project is involved.
+- Applied database proof: two versioned migrations and the synthetic-only Northstar Athletics / Harbor Home seed are live; `vector`, HNSW, and full-text search indexes are present.
+- Database security proof: all 14 public tables have RLS; security advisors return no findings; `anon` cannot use the private schema or helpers; authenticated users cannot directly select server-managed runs, knowledge tables, or assistant `answer_payload`.
+- Hosted proof: Railway deployment `56eb544e-58f5-496c-acff-430b24e14fa8` is healthy in Supabase persistence mode. The disposable-user hosted smoke suite passes 13 gates covering health, Supabase Auth, deterministic provider fallback, citations, client audience contract, persistence, API tenant/actor isolation, RLS/column boundaries, manager repair, role boundaries, safe actions, streaming, and rate limiting.
+- Local proof after the deployment fixes: 20 API tests pass. The Railway health probe exception is restricted to `/v1/health`; application routes retain exact-host enforcement. User-message inserts request only browser-readable columns, preserving the server-only `answer_payload` boundary.
+- Evidence boundary: hosted persistence and deterministic fallback are verified. Hosted OpenAI execution is not verified because `OPENAI_API_KEY` is not configured.
+- Remaining gates: configure personally owned OpenAI billing/key and verify the hosted AI path; connect the Vercel web app to Railway and run hosted browser acceptance; commit/publish the pending repository changes and verify GitHub CI; then produce the remaining profile adaptations.

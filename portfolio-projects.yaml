@@ -2,22 +2,50 @@ program: Etherlabs Engineering Portfolio
 github_owner: Etherlabs-dev
 local_root: /Users/ugochukwuchukwu/Projects/Etherlabs-Portfolio
 hosting_policy: personal_or_etherlabs_only
+default_delivery_tier: runnable_repository
+hosted_resource_policy: explicit_approval_only
 projects:
   - order: 1
     name: Query Chat / Account Intelligence GraphRAG
     repo: Etherlabs-dev/query-chat
+    delivery_tier: hosted_flagship
     phase: case_study
     demo: https://query-chat-gamma.vercel.app
     ci: passing
-    remaining: [railway_api, supabase, hosted_ai, contra, upwork, portfolio_website, linkedin, resume]
-  - { order: 2, name: Aja Intelligence Engine, repo: Etherlabs-dev/aja-intelligence-engine, phase: planned }
-  - { order: 3, name: Helios Strategy and Copy System, repo: Etherlabs-dev/helios-strategy-copy, phase: planned }
-  - { order: 4, name: Static Ad Generation and Ad Workspace, repo: Etherlabs-dev/static-ad-workspace, phase: planned }
-  - { order: 5, name: Cassius Multimodal Video Pipeline, repo: Etherlabs-dev/cassius-video-pipeline, phase: planned }
-  - { order: 6, name: Creative Intelligence, repo: Etherlabs-dev/creative-intelligence, phase: planned }
-  - { order: 7, name: Account Truth / Meta Synchronization, repo: Etherlabs-dev/account-truth-sync, phase: planned }
-  - { order: 8, name: Portfolio Rollup and Strategy Coverage, repo: Etherlabs-dev/portfolio-rollup, phase: planned }
-  - { order: 9, name: Agent Brain and Closed-Loop Learning, repo: Etherlabs-dev/agent-brain, phase: planned }
-  - { order: 10, name: Media Buying Brain and Decision Chains, repo: Etherlabs-dev/media-buying-brain, phase: planned }
-  - { order: 11, name: Context Engine and Client Onboarding, repo: Etherlabs-dev/context-engine, phase: planned }
-  - { order: 12, name: Tenant-Safe Data Hub, repo: Etherlabs-dev/tenant-safe-data-hub, phase: planned }
+    local_infrastructure: hosted_persistence_verified
+    railway_api: https://api-production-d817.up.railway.app
+    railway_status: healthy_hosted_smoke_passed
+    supabase_project: ndivrmirqknlvicbqzyh
+    supabase_status: schema_seed_security_and_hosted_smoke_verified
+    hosted_proof: { api_tests: 20, smoke_checks: 13, persistence: passed, rls_and_column_boundaries: passed, deterministic_fallback: passed, hosted_openai: pending }
+    remaining: [hosted_ai, vercel_api_connection, hosted_browser_acceptance, publish_pending_changes, contra, upwork, portfolio_website, linkedin, resume]
+  - order: 2
+    name: Research Agent
+    repo: Etherlabs-dev/research-agent
+    delivery_tier: runnable_repository
+    phase: case_study
+    local_repo: isolated
+    remote: https://github.com/Etherlabs-dev/research-agent.git
+    ci: passing
+    published_commit: 64b1f3f85954262ac97bdcf1709c326a18e88097
+    local_proof: { api_tests: 13, web_tests: 3, evals: 40/40, visual_acceptance: passed }
+    supabase_status: migration_and_pgtap_authored_optional_hosted_validation
+    remaining: [case_study, profile_assets]
+  - order: 3
+    name: Strategy and Copy Agent
+    repo: Etherlabs-dev/strategy-copy-agent
+    delivery_tier: runnable_repository
+    phase: case_study
+    source_grounding: complete_private_read_only
+    public_boundary: governed_evidence_to_strategy_copy_review_and_safe_handoff
+    infrastructure: local_and_ci_only
+    remaining: [profile_publication]
+  - { order: 4, name: Static Creative Studio, repo: Etherlabs-dev/static-creative-studio, phase: planned }
+  - { order: 5, name: Multimodal Video Pipeline, repo: Etherlabs-dev/multimodal-video-pipeline, phase: planned }
+  - { order: 6, name: Creative Analysis Engine, repo: Etherlabs-dev/creative-analysis-engine, phase: planned }
+  - { order: 7, name: Account Data Sync, repo: Etherlabs-dev/account-data-sync, phase: planned }
+  - { order: 8, name: Portfolio Intelligence, repo: Etherlabs-dev/portfolio-intelligence, phase: planned }
+  - { order: 9, name: Agent Memory and Learning, repo: Etherlabs-dev/agent-memory-learning, phase: planned }
+  - { order: 10, name: Media Decision Engine, repo: Etherlabs-dev/media-decision-engine, phase: planned }
+  - { order: 11, name: Client Context and Onboarding, repo: Etherlabs-dev/client-context-onboarding, phase: planned }
+  - { order: 12, name: Tenant Data Hub, repo: Etherlabs-dev/tenant-data-hub, phase: planned }
