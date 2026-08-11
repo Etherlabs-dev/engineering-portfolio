@@ -57,7 +57,20 @@ projects:
     published_commit: e0870f7e1c3e746dfa780546c548d810c6468349
     local_proof: { api_tests: 11, web_tests: 6, evals: 8/8, visual_acceptance: passed, dependency_audits: passed }
     remaining: [profile_publication, optional_vercel_github_connection]
-  - { order: 5, name: Multimodal Video Pipeline, repo: Etherlabs-dev/multimodal-video-pipeline, phase: planned }
+  - order: 5
+    name: Multimodal Video Pipeline
+    repo: Etherlabs-dev/multimodal-video-pipeline
+    delivery_tier: runnable_repository
+    phase: case_study
+    source_grounding: complete_private_read_only
+    public_boundary: approved_storyboard_to_durable_scene_routing_recovery_composition_review_and_local_packaging
+    infrastructure: local_and_ci_only
+    remote: https://github.com/Etherlabs-dev/multimodal-video-pipeline.git
+    hosted_backend: none
+    ci: passing
+    published_commit: 875c80b8aad75e384f5de0c98919089e3f70406c
+    local_proof: { api_tests: 14, web_tests: 7, evals: 13/13, visual_acceptance: passed, dependency_audits: passed }
+    remaining: [profile_publication]
   - { order: 6, name: Creative Analysis Engine, repo: Etherlabs-dev/creative-analysis-engine, phase: planned }
   - { order: 7, name: Account Data Sync, repo: Etherlabs-dev/account-data-sync, phase: planned }
   - { order: 8, name: Portfolio Intelligence, repo: Etherlabs-dev/portfolio-intelligence, phase: planned }

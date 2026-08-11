@@ -12,7 +12,7 @@ Delivery tiers: `Runnable repository` is the default; `Hosted flagship` is used 
 | 2 | Research Agent | `Etherlabs-dev/research-agent` | Case study | Research orchestration, market and customer intelligence, evidence synthesis | Public runnable repository and screenshots complete; case study and profile adaptations pending |
 | 3 | Strategy and Copy Agent | `Etherlabs-dev/strategy-copy-agent` | Case study | Evidence readiness, synthetic winner analysis, governed strategy portfolios, hooks, copy/scripts, immutable review and safe handoff | Public runnable repository, green CI, screenshots and long-form case study complete; profile copy drafted, external profile publication pending |
 | 4 | Static Creative Studio | `Etherlabs-dev/static-creative-studio` | Case study | Strategy-grounded image generation, deterministic composition, immutable iteration, review, approval and experiment packaging | Public runnable repository, green CI, visual gallery and long-form case study complete; profile copy drafted, external profile publication pending |
-| 5 | Multimodal Video Pipeline | `Etherlabs-dev/multimodal-video-pipeline` | Planned | Scene planning, multimodal asset preparation, generation, stitching, retry and delivery | Full case study plus video examples and profile adaptations |
+| 5 | Multimodal Video Pipeline | `Etherlabs-dev/multimodal-video-pipeline` | Case study | Durable multimodal scene orchestration, evidence-backed model routing, bounded recovery, exact assembly, review and local-only delivery | Public runnable repository, green CI, synthetic video examples and long-form case study complete; profile copy drafted, external publication pending |
 | 6 | Creative Analysis Engine | `Etherlabs-dev/creative-analysis-engine` | Planned | Creative classification, strategy interpretation, fatigue, gaps, provenance and evaluation | Full case study plus evaluation evidence and profile adaptations |
 | 7 | Account Data Sync | `Etherlabs-dev/account-data-sync` | Planned | Tenant-safe ad-account synchronization, truth modeling, provenance, health and recovery | Full case study plus operational evidence and profile adaptations |
 | 8 | Portfolio Intelligence | `Etherlabs-dev/portfolio-intelligence` | Planned | Cross-account rollups, strategy coverage, opportunity and portfolio decision support | Full case study plus dashboard screenshots and profile adaptations |
@@ -66,12 +66,25 @@ Delivery tiers: `Runnable repository` is the default; `Hosted flagship` is used 
 
 ## Immediate next actions
 
-1. Begin source-grounded discovery for Multimodal Video Pipeline, then obtain approval for its desktop and mobile visual direction before implementation.
+1. Begin source-grounded discovery for Creative Analysis Engine, the next repository in sequence; do not implement until its product and desktop-design gates close.
 2. Apply the prepared Static Creative Studio copy to the portfolio website, Contra, Upwork, LinkedIn, GitHub profile and résumé when those external publication surfaces are in scope.
 3. Configure Query Chat's personally owned hosted AI path and connect Vercel to the verified Railway API.
 4. Produce Query Chat's Contra, Upwork, website, LinkedIn and résumé adaptations.
 5. Produce Research Agent's long-form case study and profile adaptations. Keep Supabase/Railway deployment optional unless Ugo later promotes it to a hosted flagship.
 6. Apply the prepared Strategy and Copy Agent copy to the portfolio website, Contra, Upwork, LinkedIn, GitHub profile and résumé when those external publication surfaces are in scope.
+
+## Current Multimodal Video Pipeline checkpoint — 2026-08-12
+
+- Historical grounding: active private runtime wiring, routes, durable state, tenant asset resolution, multimodal routing, queue/callback reconciliation, bounded recovery, finalization, stitching, review surfaces, migrations, focused tests and dated approved-identity history were inspected read-only. The already-dirty private checkout was not changed.
+- Product boundary: approved storyboard to tenant-scoped scene graph, evidence-backed model profiles, asset-role provenance, signed idempotent callbacks, one compatible fallback, terminal-state/idempotent finalization, four exact hook manifests, checksum-locked reviewer approval and local-only packaging. Live generation, storage, advertising, provider billing and publishing are excluded.
+- Model evidence: Seedance 2.0, Kling 3.0/Omni, Veo 3.1/Lite, Luma Ray3.2, Runway Gen-4.5 and Aleph 2.0 are dated verified catalog profiles with deterministic local adapters. Seedance 2.5 remains an explicitly disabled unverified watchlist entry; Sora 2 is disabled as unavailable. No provider call is claimed.
+- Design: the approved desktop timeline, recovery, review and mobile direction were implemented as a high-fidelity control room with a deliberate Runs → Scenes → Recovery mobile hierarchy. Final implementation screenshots and an eight-point fidelity ledger are retained publicly.
+- Local implementation: React/Vite/TypeScript interface, FastAPI/Pydantic API, signed synthetic sessions, two fictional tenants, role-separated production/review, versioned SQLite workflow state, generated OpenAPI, deterministic MP4 assets, callback replay protection, optimistic concurrency, immutable failed-attempt lineage, bounded fallback, exact manifests and idempotent local packaging are complete.
+- Local proof: frontend lint, 7 web interaction/focus tests, production build, API Ruff, 14 API/security tests, 13/13 deterministic evaluations, two consecutive reset/migration runs, JavaScript and Python audits with no known vulnerabilities, secret scan, live API health, 31-second media playback, desktop/mobile browser acceptance and zero final console warnings/errors pass.
+- Public proof: `main` is published at `https://github.com/Etherlabs-dev/multimodal-video-pipeline`; commit `875c80b8aad75e384f5de0c98919089e3f70406c` passed every GitHub Actions gate in run `31537140989`. The README links the case study, architecture, security, evaluation, runbook, evidence, production lessons, approved references and final screenshots.
+- Delivery decision: Tier 1 runnable repository. No Supabase, Railway, Vercel, paid model provider, hosted API, live storage or ad-publishing resource was created or is required.
+- Profile checkpoint: evidence-bounded website, Contra, Upwork, LinkedIn, GitHub-profile and résumé copy is prepared in `docs/PROFILE_ASSETS.md`; it has not been applied to external profile surfaces.
+- Open gate: external profile publication. Creative Analysis Engine is the next repository in sequence.
 
 ## Current Static Creative Studio checkpoint — 2026-08-11
 
