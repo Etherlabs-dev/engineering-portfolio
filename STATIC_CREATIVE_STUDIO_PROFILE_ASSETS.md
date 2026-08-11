@@ -1,6 +1,8 @@
 # Static Creative Studio — profile assets
 
-Status: evidence-bounded copy prepared from public commit `36de3e0` and green GitHub Actions run `31521939475`. External profile surfaces have not been changed.
+Status: evidence-bounded copy prepared from public commit `e0870f7` and green GitHub Actions run `31530377933`. External profile surfaces have not been changed.
+
+Live deterministic UI: https://static-creative-studio.vercel.app
 
 ## Portfolio website
 
@@ -48,9 +50,11 @@ Verified on the public repository: 6 web tests, 11 API/security tests, 8/8 deter
 
 Repository: https://github.com/Etherlabs-dev/static-creative-studio
 
+Demo: https://static-creative-studio.vercel.app
+
 ## GitHub profile/index entry
 
-**[Static Creative Studio](https://github.com/Etherlabs-dev/static-creative-studio)** — Responsive static-ad production workspace with strategy context, immutable versions, region feedback, exact-version review, tenant/role boundaries, deterministic placement packaging, and green CI. Tier 1 runnable repository; synthetic demo evidence only.
+**[Static Creative Studio](https://github.com/Etherlabs-dev/static-creative-studio)** — Responsive static-ad production workspace with strategy context, immutable versions, region feedback, exact-version review, tenant/role boundaries, deterministic placement packaging, and green CI. [Live deterministic UI](https://static-creative-studio.vercel.app); synthetic demo evidence only.
 
 ## Résumé bullets
 

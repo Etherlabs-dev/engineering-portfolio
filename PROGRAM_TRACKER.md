@@ -66,25 +66,27 @@ Delivery tiers: `Runnable repository` is the default; `Hosted flagship` is used 
 
 ## Immediate next actions
 
-1. Apply the prepared Static Creative Studio copy to the portfolio website, Contra, Upwork, LinkedIn, GitHub profile and résumé when those external publication surfaces are in scope.
-2. Configure Query Chat's personally owned hosted AI path and connect Vercel to the verified Railway API.
-3. Produce Query Chat's Contra, Upwork, website, LinkedIn and résumé adaptations.
-4. Produce Research Agent's long-form case study and profile adaptations. Keep Supabase/Railway deployment optional unless Ugo later promotes it to a hosted flagship.
-5. Apply the prepared Strategy and Copy Agent copy to the portfolio website, Contra, Upwork, LinkedIn, GitHub profile and résumé when those external publication surfaces are in scope.
+1. Begin source-grounded discovery for Multimodal Video Pipeline, then obtain approval for its desktop and mobile visual direction before implementation.
+2. Apply the prepared Static Creative Studio copy to the portfolio website, Contra, Upwork, LinkedIn, GitHub profile and résumé when those external publication surfaces are in scope.
+3. Configure Query Chat's personally owned hosted AI path and connect Vercel to the verified Railway API.
+4. Produce Query Chat's Contra, Upwork, website, LinkedIn and résumé adaptations.
+5. Produce Research Agent's long-form case study and profile adaptations. Keep Supabase/Railway deployment optional unless Ugo later promotes it to a hosted flagship.
+6. Apply the prepared Strategy and Copy Agent copy to the portfolio website, Contra, Upwork, LinkedIn, GitHub profile and résumé when those external publication surfaces are in scope.
 
 ## Current Static Creative Studio checkpoint — 2026-08-11
 
 - Historical grounding: active private API wiring, structured static lifecycle, shared image pipeline, source-light workspace context, frontend project/editor surfaces, migrations, test inventory, tenant guards and approved-identity history were inspected read-only. The dirty historical checkout was not changed.
 - Product boundary: a strategy-grounded creative production workspace with brand/claim/asset gates, deterministic fallback composition, immutable child versions, region annotations, comparison, structured review, exact-version approval and local multi-placement experiment packages. Live campaign publishing and unsupported performance claims are excluded.
 - Evidence boundary: private source behavior and dated authorship history remain only in `private-evidence/`; all public brands, assets, creatives, reviews, metrics and outputs will be deterministic synthetic evidence.
-- Delivery decision: Tier 1 runnable repository. No Supabase, Railway, Vercel, paid image provider or other live resource is required or approved.
+- Delivery decision: Tier 1 runnable repository with an optional hosted deterministic UI. Ugo explicitly approved the personally owned Vercel resource for evaluator access; no Supabase, Railway, hosted API, paid image provider, live ad account or publishing resource is required or approved.
 - Discovery artifacts: the public product brief, synthetic dataset, planned architecture, security boundary, deterministic evaluation plan, private source-grounding record and private claim ledger are complete.
 - Design: Ugo approved the desktop studio, desktop review, and deliberate mobile continuation. Native-size implementation screenshots were compared against the accepted references and retained publicly.
 - Local implementation: React/Vite/TypeScript workspace, FastAPI/Pydantic API, signed synthetic sessions, tenant-scoped durable SQLite workflow, immutable child versions, normalized annotations, role-separated exact-version review, optimistic concurrency, idempotent placement packaging, generated OpenAPI, deterministic provider fallback, and `published: false` safe-action boundary are complete.
 - Local proof: frontend lint, 6 web interaction/keyboard tests, production build, API Ruff, 11 API/security tests, 8/8 deterministic evaluations, two consecutive reset/migration runs, JavaScript and Python audits with no known vulnerabilities, secret scan, live health/OpenAPI smoke, desktop/mobile browser acceptance, and zero browser console warnings/errors pass.
-- Public proof: `main` is published at `https://github.com/Etherlabs-dev/static-creative-studio`; final commit `36de3e0` passed both GitHub Actions jobs in run `31521939475`. The README links the long-form case study, approved references, implementation screenshots, architecture, security, evaluation, runbook, evidence, and production lessons.
+- Public proof: `main` is published at `https://github.com/Etherlabs-dev/static-creative-studio`; final commit `e0870f7` passed both GitHub Actions jobs in run `31530377933`. The README links the live UI, long-form case study, approved references, implementation screenshots, architecture, security, evaluation, runbook, evidence, and production lessons.
+- Hosted UI proof: deployment `dpl_DJPjU3heZmdqE481aUnWuZDYAMtU` is `READY` in Ugo's personal `ugo-chukwus-projects/static-creative-studio` Vercel scope at `https://static-creative-studio.vercel.app`. HTTP returned `200`; hosted desktop load, comparison, reviewer-role selection, exact-version approval and no-publishing confirmation passed with zero console warnings/errors. The API and database remain local; mobile remains local-browser verified.
 - Profile checkpoint: evidence-bounded website, Contra, Upwork, LinkedIn, GitHub-profile and résumé copy is prepared in `STATIC_CREATIVE_STUDIO_PROFILE_ASSETS.md`. It has not been applied to external profile surfaces.
-- Open gate: external profile publication. No dedicated hosting is required; the Tier 1 repository is publish-complete without Supabase, Railway, Vercel, a paid image provider, or a live ad account.
+- Open gate: external profile publication. GitHub auto-deploy is not connected because the Vercel account lacks a GitHub login connection; releases can be deployed manually to the verified project. No hosted API, paid image provider, or live ad account is required.
 
 ## Current Strategy and Copy Agent checkpoint — 2026-08-11
 
