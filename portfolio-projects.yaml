@@ -40,7 +40,19 @@ projects:
     public_boundary: governed_evidence_to_strategy_copy_review_and_safe_handoff
     infrastructure: local_and_ci_only
     remaining: [profile_publication]
-  - { order: 4, name: Static Creative Studio, repo: Etherlabs-dev/static-creative-studio, phase: planned }
+  - order: 4
+    name: Static Creative Studio
+    repo: Etherlabs-dev/static-creative-studio
+    delivery_tier: runnable_repository
+    phase: case_study
+    source_grounding: complete_private_read_only
+    public_boundary: strategy_grounded_static_generation_iteration_review_and_local_experiment_packaging
+    infrastructure: local_and_ci_only
+    remote: https://github.com/Etherlabs-dev/static-creative-studio.git
+    ci: passing
+    published_commit: 36de3e04dcbe7e57dc38fc33fcb8deb4bb5b5a25
+    local_proof: { api_tests: 11, web_tests: 6, evals: 8/8, visual_acceptance: passed, dependency_audits: passed }
+    remaining: [profile_publication]
   - { order: 5, name: Multimodal Video Pipeline, repo: Etherlabs-dev/multimodal-video-pipeline, phase: planned }
   - { order: 6, name: Creative Analysis Engine, repo: Etherlabs-dev/creative-analysis-engine, phase: planned }
   - { order: 7, name: Account Data Sync, repo: Etherlabs-dev/account-data-sync, phase: planned }

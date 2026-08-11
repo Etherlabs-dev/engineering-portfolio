@@ -11,7 +11,7 @@ Delivery tiers: `Runnable repository` is the default; `Hosted flagship` is used 
 | 1 | Query Chat / Account Intelligence GraphRAG | `Etherlabs-dev/query-chat` | Case study | Evidence-grounded account intelligence, exact analytics, hybrid retrieval, graph traversal, role boundaries, safe actions | GitHub README, long-form case study and screenshots complete; Contra, Upwork, website, LinkedIn and résumé adaptations pending |
 | 2 | Research Agent | `Etherlabs-dev/research-agent` | Case study | Research orchestration, market and customer intelligence, evidence synthesis | Public runnable repository and screenshots complete; case study and profile adaptations pending |
 | 3 | Strategy and Copy Agent | `Etherlabs-dev/strategy-copy-agent` | Case study | Evidence readiness, synthetic winner analysis, governed strategy portfolios, hooks, copy/scripts, immutable review and safe handoff | Public runnable repository, green CI, screenshots and long-form case study complete; profile copy drafted, external profile publication pending |
-| 4 | Static Creative Studio | `Etherlabs-dev/static-creative-studio` | Planned | Image generation, compositing, iteration, review, approval and experiment workflow | Full case study plus visual gallery and profile adaptations |
+| 4 | Static Creative Studio | `Etherlabs-dev/static-creative-studio` | Case study | Strategy-grounded image generation, deterministic composition, immutable iteration, review, approval and experiment packaging | Public runnable repository, green CI, visual gallery and long-form case study complete; profile copy drafted, external profile publication pending |
 | 5 | Multimodal Video Pipeline | `Etherlabs-dev/multimodal-video-pipeline` | Planned | Scene planning, multimodal asset preparation, generation, stitching, retry and delivery | Full case study plus video examples and profile adaptations |
 | 6 | Creative Analysis Engine | `Etherlabs-dev/creative-analysis-engine` | Planned | Creative classification, strategy interpretation, fatigue, gaps, provenance and evaluation | Full case study plus evaluation evidence and profile adaptations |
 | 7 | Account Data Sync | `Etherlabs-dev/account-data-sync` | Planned | Tenant-safe ad-account synchronization, truth modeling, provenance, health and recovery | Full case study plus operational evidence and profile adaptations |
@@ -66,10 +66,25 @@ Delivery tiers: `Runnable repository` is the default; `Hosted flagship` is used 
 
 ## Immediate next actions
 
-1. Configure Query Chat's personally owned hosted AI path and connect Vercel to the verified Railway API.
-2. Produce Query Chat's Contra, Upwork, website, LinkedIn and résumé adaptations.
-3. Produce Research Agent's long-form case study and profile adaptations. Keep Supabase/Railway deployment optional unless Ugo later promotes it to a hosted flagship.
-4. Apply the prepared Strategy and Copy Agent copy to the portfolio website, Contra, Upwork, LinkedIn, GitHub profile and résumé when those external publication surfaces are in scope.
+1. Apply the prepared Static Creative Studio copy to the portfolio website, Contra, Upwork, LinkedIn, GitHub profile and résumé when those external publication surfaces are in scope.
+2. Configure Query Chat's personally owned hosted AI path and connect Vercel to the verified Railway API.
+3. Produce Query Chat's Contra, Upwork, website, LinkedIn and résumé adaptations.
+4. Produce Research Agent's long-form case study and profile adaptations. Keep Supabase/Railway deployment optional unless Ugo later promotes it to a hosted flagship.
+5. Apply the prepared Strategy and Copy Agent copy to the portfolio website, Contra, Upwork, LinkedIn, GitHub profile and résumé when those external publication surfaces are in scope.
+
+## Current Static Creative Studio checkpoint — 2026-08-11
+
+- Historical grounding: active private API wiring, structured static lifecycle, shared image pipeline, source-light workspace context, frontend project/editor surfaces, migrations, test inventory, tenant guards and approved-identity history were inspected read-only. The dirty historical checkout was not changed.
+- Product boundary: a strategy-grounded creative production workspace with brand/claim/asset gates, deterministic fallback composition, immutable child versions, region annotations, comparison, structured review, exact-version approval and local multi-placement experiment packages. Live campaign publishing and unsupported performance claims are excluded.
+- Evidence boundary: private source behavior and dated authorship history remain only in `private-evidence/`; all public brands, assets, creatives, reviews, metrics and outputs will be deterministic synthetic evidence.
+- Delivery decision: Tier 1 runnable repository. No Supabase, Railway, Vercel, paid image provider or other live resource is required or approved.
+- Discovery artifacts: the public product brief, synthetic dataset, planned architecture, security boundary, deterministic evaluation plan, private source-grounding record and private claim ledger are complete.
+- Design: Ugo approved the desktop studio, desktop review, and deliberate mobile continuation. Native-size implementation screenshots were compared against the accepted references and retained publicly.
+- Local implementation: React/Vite/TypeScript workspace, FastAPI/Pydantic API, signed synthetic sessions, tenant-scoped durable SQLite workflow, immutable child versions, normalized annotations, role-separated exact-version review, optimistic concurrency, idempotent placement packaging, generated OpenAPI, deterministic provider fallback, and `published: false` safe-action boundary are complete.
+- Local proof: frontend lint, 6 web interaction/keyboard tests, production build, API Ruff, 11 API/security tests, 8/8 deterministic evaluations, two consecutive reset/migration runs, JavaScript and Python audits with no known vulnerabilities, secret scan, live health/OpenAPI smoke, desktop/mobile browser acceptance, and zero browser console warnings/errors pass.
+- Public proof: `main` is published at `https://github.com/Etherlabs-dev/static-creative-studio`; final commit `36de3e0` passed both GitHub Actions jobs in run `31521939475`. The README links the long-form case study, approved references, implementation screenshots, architecture, security, evaluation, runbook, evidence, and production lessons.
+- Profile checkpoint: evidence-bounded website, Contra, Upwork, LinkedIn, GitHub-profile and résumé copy is prepared in `STATIC_CREATIVE_STUDIO_PROFILE_ASSETS.md`. It has not been applied to external profile surfaces.
+- Open gate: external profile publication. No dedicated hosting is required; the Tier 1 repository is publish-complete without Supabase, Railway, Vercel, a paid image provider, or a live ad account.
 
 ## Current Strategy and Copy Agent checkpoint — 2026-08-11
 
