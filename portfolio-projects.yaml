@@ -68,7 +68,8 @@ projects:
     remote: https://github.com/Etherlabs-dev/multimodal-video-pipeline.git
     hosted_backend: none
     ci: passing
-    published_commit: 875c80b8aad75e384f5de0c98919089e3f70406c
+    published_commit: b7cafe5a9823ce1efdbef2d44e8a7fa7935d4b2e
+    model_registry: seedance_2_5_officially_verified_and_deterministically_routable
     local_proof: { api_tests: 14, web_tests: 7, evals: 13/13, visual_acceptance: passed, dependency_audits: passed }
     remaining: [profile_publication]
   - { order: 6, name: Creative Analysis Engine, repo: Etherlabs-dev/creative-analysis-engine, phase: planned }
